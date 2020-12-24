@@ -5,8 +5,17 @@
 {% endblock title %}
  
 {% block content %}
+<style>
+        h4 {
+    font-family: Pompadur, 'Comic Sans MS', cursive;
+    font-size: 250%;
+   }
+    </style>
     <h2>{{ flatpage.title }}</h2>
     <hr>
-    <h3>Наши контакты:</h3>
-{{ flatpage.content }}
+    <h4>Это первая страница:</h4>
+<h4>{{ flatpage.content }}</h4>
+<hr>
+<h4>{{ flatpage.content }}</h4>
+
 {% endblock content %}
